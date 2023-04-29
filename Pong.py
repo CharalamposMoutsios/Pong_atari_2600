@@ -5,11 +5,13 @@ pygame.init()
 screen = pygame.display.set_mode((640, 480))
 pygame.display.set_caption("Pong")
 
+
+
 # Set up game objects
 player1 = pygame.Rect(50, 200, 20, 100)
 player2 = pygame.Rect(570, 200, 20, 100)
 ball = pygame.Rect(320, 240, 20, 20)
-ball_speed = [2, 2]
+ball_speed = [1, 1]
 
 # Main game loop
 while True:
