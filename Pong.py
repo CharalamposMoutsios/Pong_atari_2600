@@ -9,7 +9,7 @@ pygame.display.set_caption("Pong")
 player1 = pygame.Rect(50, 200, 20, 100)
 player2 = pygame.Rect(570, 200, 20, 100)
 ball = pygame.Rect(320, 240, 20, 20)
-ball_speed = [5, 5]
+ball_speed = [2, 2]
 
 # Main game loop
 while True:
