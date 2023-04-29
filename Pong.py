@@ -38,7 +38,7 @@ while True:
     if ball.right > player2.left and player2.top < ball.centery < player2.bottom:
         ball_speed[0] = -ball_speed[0]
     if ball.left < 0 or ball.right > 640:
-        ball_speed = [5, 5]
+        ball_speed = [1, 1]
 
     # Draw game objects
     screen.fill((0, 0, 0))
