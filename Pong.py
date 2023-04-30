@@ -13,6 +13,7 @@ player2 = pygame.Rect(570, 200, 20, 100)
 ball = pygame.Rect(320, 240, 20, 20)
 ball_speed = [1, 1]
 
+
 # Main game loop
 while True:
     for event in pygame.event.get():
